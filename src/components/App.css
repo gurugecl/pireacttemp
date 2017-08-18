@@ -7,11 +7,11 @@
 }
 
 .nav li a {
-    color: white !important;
+    color: #acac86 !important;
 }
 
 .nav li a:hover {
-    color: grey !important;
+    color: #5b5b3e !important;
 }
 
 .navbar-brand {
@@ -25,17 +25,22 @@
 
 .jumbotron {
     background: #e7e7e7 !important;
+
 }
 
 .smallJumbotron {
     background: #e7e7e7 !important;
-    /*padding-top: 40px;*/
     padding-bottom: 0px;
-    /*height: 70px;*/
+    /*border-bottom: 1px solid gray;*/
 }
 
 .smallJumbotron h1 {
-    padding-top: 20px;
+     padding-top: 20px;
+     margin-left: 30px;
+ }
+
+.smallJumbotron p {
+    margin-left: 30px;
 }
 
 .App-logo {
@@ -55,43 +60,42 @@
 }
 
 .container {
-    /*margin-right: 0px !important;*/
-    /*margin-left: 0px !important;*/
-    margin: 0px !important;
+    margin: 0px 0px 0px 30px !important;
     width: 100%;
     height: 100%;
 }
 
-.home {
-    margin: 30px;
+/*.home {*/
+    /*margin: 60px;*/
+/*}*/
+
+/*.basics {*/
+    /*margin: 60px;*/
+/*}*/
+
+/*.styles {*/
+    /*margin: 60px;*/
+/*}*/
+
+/*.projects {*/
+    /*margin: 60px;*/
+/*}*/
+
+/*.state {*/
+    /*margin: 60px;*/
+/*}*/
+
+.home, .basics, .styles, .projects, .state, .props {
+    margin: 40px 60px 60px 60px;
 }
 
-.basics {
-    margin: 30px;
-}
 
-.styles {
-    margin: 30px;
-}
-
-.tables {
-    margin: 30px;
-}
-
-.state {
-    margin: 30px;
-}
-
-.props {
-    margin: 30px;
-}
-
-
-.homeBox, .bootstrapBox {
+.homeBox, .bootstrapBox, .jsxexBox {
     width: 320px;
     padding: 10px;
     border: 3px solid gray;
     margin: 0;
+    background-color: #f5f5f0;
 }
 
 .styletagBox {
@@ -99,4 +103,13 @@
     padding: 10px;
     border: 3px solid gray;
     margin: 0;
+    background-color: #f5f5f0;
+}
+
+.tryHtmlBox, .tryJSBox {
+    width: 650px;
+    padding: 10px;
+    border: 3px solid gray;
+    margin: 0;
+    background-color: #f5f5f0;
 }

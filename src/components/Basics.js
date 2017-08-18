@@ -19,12 +19,20 @@ class Basics extends Component {
                     <br/>
                     <img src="https://image.slidesharecdn.com/forslideshare-160211084618/95/reactjs-vs-angularjs-head-to-head-comparison-15-638.jpg?cb=1455181040" alt="VirtualDOM Image"  width="550" height="400" />
                     <br/><br/>
+                    <h2>Components</h2>
                     <p>Each part of a website is broken down into seperate parts called components</p>
                     {/*<img src="/src/components/components.jpeg" alt="Component Image"  width="150" height="100" />*/}
                     <br/>
                     <img src="http://cdn2.w3cplus.com/cdn/farfuture/YRm9L9QOWkyhJ0gMmtAIbMKJKynHxLTYJ-QAjWCSNm4/mtime:1478010525/sites/default/files/blogs/2016/1611/single_page_model_144.png" alt="Component Image"  width="500" height="400" />
                     <br/><br/>
                     <p>These function as seperate sections that can be brought together on the main ReactJS page</p>
+                    <h2>JSX</h2>
+                    <p>JSX is how you write functionality in React. It is a mixture of Html and Javascript.</p>
+                    <p>Here is an example:</p>
+                    <div className="jsxexBox">
+                        <p>const element = &lt;h1&gt;Hello, world!&lt;/h1&gt;;</p>
+                    </div>
+                    <br/>
                     <p>Another important concept to understand are <b>State</b> and <b>Props</b>.
                     These are responsible for defining the properties of things as well as making the React application
                     dynamic by updating changes in state as they happen. We will learn more about them in the next section!</p>

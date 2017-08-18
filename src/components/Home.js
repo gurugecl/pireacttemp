@@ -44,12 +44,6 @@ class Home extends Component {
                         </div>
                         <p>Your app will now open in <a href="http://localhost:3000/">localhost:3000</a></p>
                         <p>You are now ready to get started! On to the next section</p>
-
-
-
-
-
-
                     </div>
             </div>
         )}}

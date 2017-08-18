@@ -50,7 +50,7 @@ constructor(props, context) {
                     <li className={(this.state.currentPage === 'properties') ? 'active': ''}><Link onClick={() => this.handleChange('properties', 'Props', 'Learn about Properties')} to='/properties'>Props</Link></li>
                     <li className={(this.state.currentPage === 'stater') ? 'active': ''}><Link onClick={() => this.handleChange('stater', 'State', 'Learn about State')} to='/stater'>State</Link></li>
                     <li className={(this.state.currentPage === 'styler') ? 'active': ''}><Link onClick={() => this.handleChange('styler', 'Styles', 'How to add Styling')} to='/styler'>Styling</Link></li>
-                    <li className={(this.state.currentPage === 'tables') ? 'active': ''}><Link onClick={() => this.handleChange('tables', 'Tables', 'How to build Tables')} to='/tables'>Tables</Link></li>
+                    <li className={(this.state.currentPage === 'projects') ? 'active': ''}><Link onClick={() => this.handleChange('projects', 'Projects', 'Practice Projects')} to='/projects'>Projects</Link></li>
                     <img src={logo} className="App-logo" alt="logo" />
                 </ul>
             </div>

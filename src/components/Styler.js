@@ -22,14 +22,14 @@ class Styler extends Component {
                     <p>Once you have installed that you will need to add bootstrap to your file with a style tag like so:</p>
                     <br/>
                     <div className="styletagBox">
-                        <p>Latest compiled and minified CSS</p>
+                        <p>&lt;!-- Latest compiled and minified CSS --&gt;</p>
                         <p>rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css"></p>
                     </div>
                     <h5><b>ES6 Import Method</b></h5>
                     <div className="styletagBox">
                         <p>import Button from 'react-bootstrap/lib/Button';</p>
                         <p>//or</p>
-                        <p>import { "Button" } from 'react-bootstrap';</p>
+                        <p>import {'{ Button }'} from 'react-bootstrap';</p>
                     </div>
                     <br/>
                     <p>Luckily for you however we have already imported all those libraries so all you have to do is
