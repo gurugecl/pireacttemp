@@ -8,7 +8,7 @@ class SmallJumbotron extends Component {
         <div>
                 <div className="smallJumbotron">
                     <div className="container">
-                        <h1>{this.props.jumboHeader}</h1>
+                        <h1><b>{this.props.jumboHeader}</b></h1>
                         <p className="lead">{this.props.jumboText}</p>
                     </div>
                 </div>

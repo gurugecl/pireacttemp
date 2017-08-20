@@ -6,7 +6,7 @@ class Properties extends Component {
     render() {
         return (
             <div>
-                <SmallJumbotron/>
+                {/*<SmallJumbotron/>*/}
                 <div className="props">
                 <h2>Overview</h2>
                     <p>Properties in ReactJS handle the attributes of the elements. For instance the color

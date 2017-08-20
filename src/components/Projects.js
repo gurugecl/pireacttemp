@@ -9,7 +9,8 @@ class Projects extends Component {
         this.state = {
             contacts: props.contacts,
             hello: '',
-            exclamation: ''
+            exclamation: '',
+            currentColor: ''
         };
     }
 
@@ -23,10 +24,18 @@ class Projects extends Component {
         })
     }
 
+    updateColor (event) {
+        event.preventDefault();
+        var newColor = this.state.currentColor === '' ? '#4d94ff' : '';
+        this.setState({
+            currentColor: newColor
+        })
+    }
+
     render() {
         return (
             <div>
-                <SmallJumbotron/>
+                {/*<SmallJumbotron/>*/}
                 <div className="projects">
                     <h2>Try It</h2>
                     <p>The best way to learn how to code is always to practice. So here are some projects to help you do that.</p>
@@ -70,10 +79,12 @@ class Projects extends Component {
                         <input type="submit"/>
                     </form>
                     <h3><b>{this.state.hello} {this.state.contacts}{this.state.exclamation}</b></h3>
+                    <br/>
+                    <h2 style={{background:this.state.currentColor}}><b>Now Toggle The Background Color of This Text By Clicking The Button Below!</b></h2>
+                    <br/>
+                    <p><a className="btn btn-primary btn-lg"  href="#" role="button" onClick={this.updateColor.bind(this)}>Change Color</a></p>
                 </div>
             </div>
-
-            //Add a section about changing the color by clicking a button
         )}}
 
 

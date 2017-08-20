@@ -7,12 +7,12 @@ class Styler extends Component {
     render() {
         return (
             <div>
-                <SmallJumbotron/>
+                {/*<SmallJumbotron/>*/}
                 <div className="styles">
                     <h2>CSS</h2>
                     <p>Styling in React can be done using CSS like in regular Javascript. One of the great libraries
                     for CSS is bootstrap. Luckily React has it's own implementation of boostrap called React-Bootstrap</p>
-                    <h3>Installation</h3>
+                    <h2>Installation</h2>
                     <p>React-Bootstrap can be installed using npm. Here are the commmands for it</p>
                     <div className="bootstrapBox">
                         <p>$ npm install --save react react-dom</p>

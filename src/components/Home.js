@@ -8,7 +8,7 @@ class Home extends Component {
         return (
             <div>
                 <Jumbotron/>
-                    <div className="home">
+                    <div className="home" classID="home">
                         <h2>Introduction</h2>
                         <p>This template will serve as a guide to introduce you to the exciting world of ReactJS. ReactJS is a new and
                         cutting edge javascript library that allows you to render much faster and efficiently on the client side. It's

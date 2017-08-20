@@ -7,7 +7,7 @@ class Stater extends Component {
     render() {
         return (
             <div>
-                <SmallJumbotron/>
+                {/*<SmallJumbotron/>*/}
                 <div className="state">
                 <h2>Overview</h2>
                     <p>

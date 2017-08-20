@@ -7,7 +7,7 @@ class Basics extends Component {
     render() {
         return (
             <div>
-                <SmallJumbotron/>
+                {/*<SmallJumbotron/>*/}
                 <div className="basics">
                 <h2>Understanding ReactJS</h2>
                     <p>ReactJS is a front end Javasript library that makes rendering on the client side much easier
@@ -17,7 +17,7 @@ class Basics extends Component {
                     of the entire page which makes it much faster and more efficient.
                     </p>
                     <br/>
-                    <img src="https://image.slidesharecdn.com/forslideshare-160211084618/95/reactjs-vs-angularjs-head-to-head-comparison-15-638.jpg?cb=1455181040" alt="VirtualDOM Image"  width="550" height="400" />
+                    <img src="https://image.slidesharecdn.com/forslideshare-160211084618/95/reactjs-vs-angularjs-head-to-head-comparison-15-638.jpg?cb=1455181040" alt="VirtualDOM Image" align="center"  width="550" height="400" />
                     <br/><br/>
                     <h2>Components</h2>
                     <p>Each part of a website is broken down into seperate parts called components</p>
