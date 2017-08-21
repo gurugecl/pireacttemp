@@ -39,8 +39,8 @@ class Properties extends Component {
                     this.props.user.name</p>
                     <div className="buttons">
                         <ButtonToolbar>
-                            <Button className="back btn btn-primary btn-lg" href="#" role="button">Back</Button>
-                            <Button className="next btn btn-primary btn-lg" href="#" role="button">Next</Button>
+                            <Button className="back btn btn-primary btn-lg" href="basics" role="button">Back</Button>
+                            <Button className="next btn btn-primary btn-lg" href="stater" role="button">Next</Button>
                         </ButtonToolbar>
                     </div>
                 </div>

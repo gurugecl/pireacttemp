@@ -48,7 +48,7 @@ class Home extends Component {
                         <p>You are now ready to get started! On to the next section</p>
                         <div className="buttons">
                             <ButtonToolbar>
-                                <Button className="next btn btn-primary btn-lg" href="#" role="button">Next</Button>
+                                <Button className="single btn btn-primary btn-lg" href="basics" role="button">Next</Button>
                             </ButtonToolbar>
                         </div>
                     </div>

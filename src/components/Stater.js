@@ -45,8 +45,8 @@ class Stater extends Component {
                     </div>
                     <div className="buttons">
                         <ButtonToolbar>
-                            <Button className="back btn btn-primary btn-lg" href="#" role="button">Back</Button>
-                            <Button className="next btn btn-primary btn-lg" href="#" role="button">Next</Button>
+                            <Button className="back btn btn-primary btn-lg" href="properties" role="button">Back</Button>
+                            <Button className="next btn btn-primary btn-lg" href="styler" role="button">Next</Button>
                         </ButtonToolbar>
                     </div>
                 </div>

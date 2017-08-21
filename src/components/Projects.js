@@ -39,7 +39,7 @@ class Projects extends Component {
                     <h2>Hands on Training</h2>
                     <p>The best way to learn how to code is to always try it out yourself. So here are some projects to help you do that.</p>
                     <br/>
-                    <h4><b>Project One: Displaying User's Name</b></h4>
+                    <h3><b>Project One: Displaying User's Name</b></h3>
                     <p><b>Description:</b> Let set up a project for users to input their name which will then be displayed on the screen with the
                         push of a button</p>
                     <p>Type the following code in your code editor</p>
@@ -73,6 +73,8 @@ class Projects extends Component {
                         <p>);</p>
                     </div>
                     <br/>
+                    <h3><b>Try It...</b></h3>
+                    <br/>
                     <p><b>Please Enter Your Name</b></p>
                     <form onSubmit={this.addContact.bind(this)}>
                         <label>
@@ -85,7 +87,7 @@ class Projects extends Component {
 
                     {/*Second Project*/}
                     <br/>
-                    <h4><b>Project Two: Changing Colors With a Button Click</b></h4>
+                    <h3><b>Project Two: Changing Colors With a Button Click</b></h3>
                     <p><b>Description:</b> Lets set up a project where we can change the background color of a line of text
                     by repeatedly clicking a button</p>
                     <p>Type the following code in your code editor</p>
@@ -119,16 +121,20 @@ class Projects extends Component {
                         <p>);</p>
                     </div>
                     <br/>
+                    <h3><b>Try It...</b></h3>
+                    <br/>
                     <h2 style={{background:this.state.currentColor}}><b>Now Toggle The Background Color of This Text By Clicking The Button Below!</b></h2>
                     <br/>
+                    <div className="buttons">
                     <p><a className="btn btn-info btn-lg"  href="#" role="button" onClick={this.updateColor.bind(this)}>Change Color</a></p>
+                    </div>
                     <br/>
                     <h3><b>Keep Learning</b></h3>
-                    <p>You now have the hands on experience to get started in ReactJS. Kepp learning and practicing and you will
+                    <p>You now have the hands on experience to get started in ReactJS. Keep learning and practicing and you will
                     become a ReactJS pro in no time!</p>
                     <div className="buttons">
                         <ButtonToolbar>
-                            <Button className="back btn btn-primary btn-lg" href="#" role="button">Back</Button>
+                            <Button className="single btn btn-primary btn-lg" href="styler" role="button">Back</Button>
                         </ButtonToolbar>
                     </div>
                 </div>

@@ -41,8 +41,8 @@ class Basics extends Component {
                     dynamic by updating changes in state as they happen. We will learn more about them in the next section!</p>
                     <div className="buttons">
                         <ButtonToolbar>
-                            <Button className="back btn btn-primary btn-lg" href="#" role="button">Back</Button>
-                            <Button className="next btn btn-primary btn-lg" href="#" role="button">Next</Button>
+                            <Button className="back btn btn-primary btn-lg" href="home" role="button">Back</Button>
+                            <Button className="next btn btn-primary btn-lg" href="properties" role="button">Next</Button>
                         </ButtonToolbar>
                     </div>
                 </div>
