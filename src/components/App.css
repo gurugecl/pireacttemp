@@ -137,11 +137,18 @@ img {
     margin: 0 auto;
 }
 
-.back {
-    display:inline-block;
-    /*margin-top: 50px;*/
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back{
+   margin: 80px 200px 40px 0px;
 }
 
 .next {
-    display:inline-block;
+    margin: 80px 0px 40px 200px;
 }
+
+

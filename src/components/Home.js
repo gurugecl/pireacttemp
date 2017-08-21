@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Jumbotron from "./Jumbotron";
+import { ButtonToolbar, Button } from 'react-bootstrap';
 
 
 class Home extends Component {
@@ -45,6 +46,11 @@ class Home extends Component {
                         </div>
                         <p>Your app will now open in <a href="http://localhost:3000/">localhost:3000</a></p>
                         <p>You are now ready to get started! On to the next section</p>
+                        <div className="buttons">
+                            <ButtonToolbar>
+                                <Button className="next btn btn-primary btn-lg" href="#" role="button">Next</Button>
+                            </ButtonToolbar>
+                        </div>
                     </div>
             </div>
         )}}

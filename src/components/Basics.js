@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import { ButtonToolbar, Button } from 'react-bootstrap';
+
 
 class Basics extends Component {
 
@@ -38,8 +40,10 @@ class Basics extends Component {
                     These are responsible for defining the properties of things as well as making the React application
                     dynamic by updating changes in state as they happen. We will learn more about them in the next section!</p>
                     <div className="buttons">
-                        <p><a className="back btn btn-primary btn-lg pullLeft" href="#" role="button">Back</a></p>
-                        <p><a className="next btn btn-primary btn-lg pullRight" href="#" role="button">Next</a></p>
+                        <ButtonToolbar>
+                            <Button className="back btn btn-primary btn-lg" href="#" role="button">Back</Button>
+                            <Button className="next btn btn-primary btn-lg" href="#" role="button">Next</Button>
+                        </ButtonToolbar>
                     </div>
                 </div>
             </div>

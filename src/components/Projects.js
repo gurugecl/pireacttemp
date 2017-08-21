@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import { ButtonToolbar, Button } from 'react-bootstrap';
 
 class Projects extends Component {
 
@@ -120,11 +121,16 @@ class Projects extends Component {
                     <br/>
                     <h2 style={{background:this.state.currentColor}}><b>Now Toggle The Background Color of This Text By Clicking The Button Below!</b></h2>
                     <br/>
-                    <p><a className="btn btn-primary btn-lg"  href="#" role="button" onClick={this.updateColor.bind(this)}>Change Color</a></p>
+                    <p><a className="btn btn-info btn-lg"  href="#" role="button" onClick={this.updateColor.bind(this)}>Change Color</a></p>
                     <br/>
                     <h3><b>Keep Learning</b></h3>
                     <p>You now have the hands on experience to get started in ReactJS. Kepp learning and practicing and you will
                     become a ReactJS pro in no time!</p>
+                    <div className="buttons">
+                        <ButtonToolbar>
+                            <Button className="back btn btn-primary btn-lg" href="#" role="button">Back</Button>
+                        </ButtonToolbar>
+                    </div>
                 </div>
             </div>
         )}}

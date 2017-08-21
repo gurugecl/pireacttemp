@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import { ButtonToolbar, Button } from 'react-bootstrap';
 
 class Properties extends Component {
     render() {
@@ -36,6 +37,12 @@ class Properties extends Component {
                     <br/>
                     <p>This will display the sentence <b>Hello John</b> as we have set the name of the User to John and are passing it in as
                     this.props.user.name</p>
+                    <div className="buttons">
+                        <ButtonToolbar>
+                            <Button className="back btn btn-primary btn-lg" href="#" role="button">Back</Button>
+                            <Button className="next btn btn-primary btn-lg" href="#" role="button">Next</Button>
+                        </ButtonToolbar>
+                    </div>
                 </div>
             </div>
         )}}

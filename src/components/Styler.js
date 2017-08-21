@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import { ButtonToolbar, Button } from 'react-bootstrap';
 
 class Styler extends Component {
 
@@ -31,6 +32,12 @@ class Styler extends Component {
                     <br/>
                     <p>Luckily for you however we have already imported all those libraries so all you have to do is
                     add the script tag to implement bootstrap</p>
+                    <div className="buttons">
+                        <ButtonToolbar>
+                            <Button className="back btn btn-primary btn-lg" href="#" role="button">Back</Button>
+                            <Button className="next btn btn-primary btn-lg" href="#" role="button">Next</Button>
+                        </ButtonToolbar>
+                    </div>
                 </div>
             </div>
         )}}

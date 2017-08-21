@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import { ButtonToolbar, Button } from 'react-bootstrap';
 
 class Stater extends Component {
 
@@ -41,6 +42,12 @@ class Stater extends Component {
                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;currentPage:page</p>
                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});</p>
                         <p>&nbsp;&nbsp;};</p>
+                    </div>
+                    <div className="buttons">
+                        <ButtonToolbar>
+                            <Button className="back btn btn-primary btn-lg" href="#" role="button">Back</Button>
+                            <Button className="next btn btn-primary btn-lg" href="#" role="button">Next</Button>
+                        </ButtonToolbar>
                     </div>
                 </div>
             </div>
