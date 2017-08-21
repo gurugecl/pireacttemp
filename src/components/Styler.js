@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import SmallJumbotron from "./SmallJumbotron";
 
 class Styler extends Component {
 
     render() {
         return (
             <div>
-                {/*<SmallJumbotron/>*/}
                 <div className="styles">
                     <h2>CSS</h2>
                     <p>Styling in React can be done using CSS like in regular Javascript. One of the great libraries

@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import SmallJumbotron from "./SmallJumbotron";
 
 class Stater extends Component {
 
     render() {
         return (
             <div>
-                {/*<SmallJumbotron/>*/}
                 <div className="state">
                 <h2>Overview</h2>
                     <p>

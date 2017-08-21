@@ -29,6 +29,12 @@
     background-color: black;
 }
 
+.logoImage {
+    /*margin-left: 240%;*/
+    position: absolute; /*or fixed*/
+    right: 30px;
+}
+
 .jumbotron {
     background: #e7e7e7 !important;
 
@@ -51,7 +57,7 @@
 .App-logo {
     animation: App-logo-spin infinite 20s linear;
     height: 50px;
-    margin: 0px;
+    margin: 0px !important;
     /*display: flex !important;*/
 }
 

@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import SmallJumbotron from "./SmallJumbotron";
 
 class Basics extends Component {
 
     render() {
         return (
             <div>
-                {/*<SmallJumbotron/>*/}
                 <div className="basics">
                 <h2>Understanding ReactJS</h2>
                     <p>ReactJS is a front end Javasript library that makes rendering on the client side much easier
