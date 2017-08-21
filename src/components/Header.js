@@ -45,7 +45,7 @@ constructor(props, context) {
                 <a className="navbar-brand">ReactTemplate</a>
             <div id="navbar">
                 <ul className="nav navbar-nav">
-                    <li className={(this.state.currentPage === 'home') ? 'active': ''}><Link onClick={() => this.handleChange('home')} to='/'>Homes</Link></li>
+                    <li className={(this.state.currentPage === 'home') ? 'active': ''}><Link onClick={() => this.handleChange('home')} to='/'>Home</Link></li>
                     <li className={(this.state.currentPage === 'basics') ? 'active': ''}><Link onClick={() => this.handleChange('basics','Basics', 'Introduction to React')} to='/basics'>Basics</Link></li>
                     <li className={(this.state.currentPage === 'properties') ? 'active': ''}><Link onClick={() => this.handleChange('properties', 'Props', 'Learn about Properties')} to='/properties'>Props</Link></li>
                     <li className={(this.state.currentPage === 'stater') ? 'active': ''}><Link onClick={() => this.handleChange('stater', 'State', 'Learn about State')} to='/stater'>State</Link></li>
