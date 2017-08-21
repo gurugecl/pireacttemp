@@ -12,10 +12,11 @@ class Home extends Component {
                         <h2>Introduction</h2>
                         <p>This template will serve as a guide to introduce you to the exciting world of ReactJS. ReactJS is a new and
                         cutting edge javascript library that allows you to render much faster and efficiently on the client side. It's
-                        popularity has been skyrocketing lately and learning ReactJS will give you a gread advantage in tech. So Lets
-                        get started</p>
+                        popularity has been skyrocketing lately and learning ReactJS will give you a great advantage when building websites. So Lets
+                        get started!</p>
                         {/*<br/>*/}
                         <h2>Prerequisites</h2>
+                        <p>Here's what you need to know to get started coding in ReactJS</p>
                         <p>Basic understanding of:</p>
                             <ul>
                                 <li>HTML</li>

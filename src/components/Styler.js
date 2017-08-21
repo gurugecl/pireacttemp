@@ -8,7 +8,7 @@ class Styler extends Component {
             <div>
                 <div className="styles">
                     <h2>CSS</h2>
-                    <p>Styling in React can be done using CSS like in regular Javascript. One of the great libraries
+                    <p>Styling in React can be done using CSS like in regular Javascript. One of the most popular libraries
                     for CSS is bootstrap. Luckily React has it's own implementation of boostrap called React-Bootstrap</p>
                     <h2>Installation</h2>
                     <p>React-Bootstrap can be installed using npm. Here are the commmands for it</p>
@@ -18,7 +18,6 @@ class Styler extends Component {
                     </div>
                     <br/>
                     <p>Once you have installed that you will need to add bootstrap to your file with a style tag like so:</p>
-                    <br/>
                     <div className="styletagBox">
                         <p>&lt;!-- Latest compiled and minified CSS --&gt;</p>
                         <p>rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css"></p>

@@ -8,7 +8,7 @@ class Basics extends Component {
             <div>
                 <div className="basics">
                 <h2>Understanding ReactJS</h2>
-                    <p>ReactJS is a front end Javasript library that makes rendering on the client side much easier
+                    <p>ReactJS is a front end Javasript library that makes rendering on the client side much easier.
                     It does this by implementing distinct components and updating state by comparing something called
                     a virtual DOM to the actual DOM. When React notices a difference between the two it will update that
                     specific change and nothing else. In that way ReactJS only updates what's necessary instead of
@@ -24,6 +24,9 @@ class Basics extends Component {
                     <img src="http://cdn2.w3cplus.com/cdn/farfuture/YRm9L9QOWkyhJ0gMmtAIbMKJKynHxLTYJ-QAjWCSNm4/mtime:1478010525/sites/default/files/blogs/2016/1611/single_page_model_144.png" alt="Component Image"  width="500" height="400" />
                     <br/><br/>
                     <p>These function as seperate sections that can be brought together on the main ReactJS page</p>
+                    <p>Here is an example of a basic ReactJS component using ES6 which is the latest JS syntax</p>
+                    <br/>
+                    <img src="https://image.slidesharecdn.com/003-170302100436/95/003-reactjs-basic-5-638.jpg?cb=1488449490" alt="Component Image"  width="500" height="400" />
                     <h2>JSX</h2>
                     <p>JSX is how you write functionality in React. It is a mixture of Html and Javascript.</p>
                     <p>Here is an example:</p>
@@ -34,6 +37,10 @@ class Basics extends Component {
                     <p>Another important concept to understand are <b>State</b> and <b>Props</b>.
                     These are responsible for defining the properties of things as well as making the React application
                     dynamic by updating changes in state as they happen. We will learn more about them in the next section!</p>
+                    <div className="buttons">
+                        <p><a className="back btn btn-primary btn-lg pullLeft" href="#" role="button">Back</a></p>
+                        <p><a className="next btn btn-primary btn-lg pullRight" href="#" role="button">Next</a></p>
+                    </div>
                 </div>
             </div>
         )}}

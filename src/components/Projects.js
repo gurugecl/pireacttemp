@@ -36,7 +36,7 @@ class Projects extends Component {
             <div>
                 <div className="projects">
                     <h2>Hands on Training</h2>
-                    <p>The best way to learn how to code is to try it yourself. So here are some projects to help you do that.</p>
+                    <p>The best way to learn how to code is to always try it out yourself. So here are some projects to help you do that.</p>
                     <br/>
                     <h4><b>Project One: Displaying User's Name</b></h4>
                     <p><b>Description:</b> Let set up a project for users to input their name which will then be displayed on the screen with the
@@ -121,6 +121,10 @@ class Projects extends Component {
                     <h2 style={{background:this.state.currentColor}}><b>Now Toggle The Background Color of This Text By Clicking The Button Below!</b></h2>
                     <br/>
                     <p><a className="btn btn-primary btn-lg"  href="#" role="button" onClick={this.updateColor.bind(this)}>Change Color</a></p>
+                    <br/>
+                    <h3><b>Keep Learning</b></h3>
+                    <p>You now have the hands on experience to get started in ReactJS. Kepp learning and practicing and you will
+                    become a ReactJS pro in no time!</p>
                 </div>
             </div>
         )}}
