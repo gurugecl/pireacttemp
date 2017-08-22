@@ -13,7 +13,7 @@ class Jumbotron extends Component {
                 <div className="jumbotron">
                     <div className="container">
                         <h1>Hello Students</h1>
-                        <p className="lead">Welcome to the ReactJS Template</p>
+                        <p className="lead"><b>Welcome to the ReactJS Template</b></p>
                         <p><a className="btn btn-primary btn-lg" onClick={this.scrollWin.bind(this)} href="#" role="button">Learn More</a></p>
                     </div>
                 </div>

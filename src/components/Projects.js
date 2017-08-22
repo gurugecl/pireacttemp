@@ -122,8 +122,8 @@ class Projects extends Component {
                     </div>
                     <br/>
                     <h3><b>Try It...</b></h3>
-                    <br/>
-                    <h2 style={{background:this.state.currentColor}}><b>Now Toggle The Background Color of This Text By Clicking The Button Below!</b></h2>
+                    {/*<br/>*/}
+                    <h2 style={{background:this.state.currentColor}}><b>Toggle The Background Color of This Text By Clicking The Button Below!</b></h2>
                     <br/>
                     <div className="buttons">
                     <p><a className="btn btn-info btn-lg"  href="#" role="button" onClick={this.updateColor.bind(this)}>Change Color</a></p>

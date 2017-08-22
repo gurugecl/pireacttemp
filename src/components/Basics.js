@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
 import { ButtonToolbar, Button } from 'react-bootstrap';
-
+import Header from './Header'
 
 class Basics extends Component {
 
     render() {
         return (
             <div>
+                {/*<Header />*/}
                 <div className="basics">
                 <h2>Understanding ReactJS</h2>
                     <p>ReactJS is a front end Javasript library that makes rendering on the client side much easier.

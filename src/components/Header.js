@@ -30,7 +30,7 @@ constructor(props, context) {
 
     render() {
 
-        var smalljumbotron;
+        let smalljumbotron;
 
         if(this.state.currentPage === 'home'){
             smalljumbotron = '';
