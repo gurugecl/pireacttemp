@@ -5,7 +5,7 @@ class Jumbotron extends Component {
     scrollWin= (event) => {
         event.preventDefault();
         window.scrollTo(0, 300);
-    }
+    };
 
     render() {
         return (
@@ -14,7 +14,7 @@ class Jumbotron extends Component {
                     <div className="container">
                         <h1>Hello Students</h1>
                         <p className="lead"><b>Welcome to the ReactJS Template</b></p>
-                        <p><a className="btn btn-primary btn-lg" onClick={this.scrollWin.bind(this)} href="#" role="button">Learn More</a></p>
+                        <p><a className="btn btn-primary btn-lg" onClick={this.scrollWin.bind(this)} href="#" role="button">Get Started</a></p>
                     </div>
                 </div>
             </div>

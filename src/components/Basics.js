@@ -5,10 +5,39 @@ import Header from './Header'
 
 class Basics extends Component {
 
+    // handleChange = (page) => {
+    //     this.setState({
+    //         currentPage:page,
+    //         // jumboHeader:header,
+    //         // jumboText: text
+    //     });
+    // };
+
+    // Try setting these up correctly
+
+    constructor() {
+        super();
+        this.state = {
+            currentPage: 'Basics'
+        }
+    }
+
+    moveNext() {
+        this.setState({
+            currentPage: 'Props'
+        });
+    }
+
+    moveBack() {
+        this.setState({
+            currentPage: 'Home',
+        });
+    }
+
     render() {
         return (
             <div>
-                {/*<Header />*/}
+                {/*<Header currentPage={this.setState.currentPage} />*/}
                 <div className="basics">
                 <h2>Understanding ReactJS</h2>
                     <p>ReactJS is a front end Javasript library that makes rendering on the client side much easier.
@@ -42,8 +71,8 @@ class Basics extends Component {
                     dynamic by updating changes in state as they happen. We will learn more about them in the next section!</p>
                     <div className="buttons">
                         <ButtonToolbar>
-                            <Button className="back btn btn-primary btn-lg" href="home" role="button">Back</Button>
-                            <Button className="next btn btn-primary btn-lg" href="properties" role="button">Next</Button>
+                            <Button className="back btn btn-primary btn-lg" onClick={() => this.moveNext(console.log ("props"))} href="/" role="button">Back</Button>
+                            <Button className="next btn btn-primary btn-lg" onClick={() => this.moveBack(console.log ("home"))} href="properties" role="button">Next</Button>
                         </ButtonToolbar>
                     </div>
                 </div>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import { ButtonToolbar, Button } from 'react-bootstrap';
+import SmallJumbotron from "./SmallJumbotron";
 
 class Projects extends Component {
 
@@ -35,6 +36,7 @@ class Projects extends Component {
     render() {
         return (
             <div>
+                {/*<SmallJumbotron/>*/}
                 <div className="projects">
                     <h2>Hands on Training</h2>
                     <p>The best way to learn how to code is to always try it out yourself. So here are some projects to help you do that.</p>

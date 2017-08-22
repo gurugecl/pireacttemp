@@ -4,7 +4,8 @@ import { Navbar } from './bootstrap.css';
 import './App.css';
 import logo from '../logo.svg';
 import React, { Component } from 'react';
-import SmallJumbotron from './SmallJumbotron'
+import SmallJumbotron from './SmallJumbotron';
+import Basics from './Basics'
 
 
 class Header extends Component {
