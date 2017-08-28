@@ -132,8 +132,13 @@ class Projects extends Component {
                     </div>
                     <br/>
                     <h3><b>Keep Learning</b></h3>
-                    <p>You now have the hands on experience to get started in ReactJS. Keep learning and practicing and you will
-                    become a ReactJS pro in no time!</p>
+                    <p>You now have the hands on experience to get started in ReactJS. Below is a Download button that will provide you with a basic template to start your
+                        ReactJS journey. Use it to keep learning and practicing and you will become a ReactJS pro in no time!</p>
+                    <div className="buttons">
+                        <ButtonToolbar>
+                            <Button className="download btn btn-success btn-lg" href="#" role="button">DOWNLOAD</Button>
+                        </ButtonToolbar>
+                    </div>
                     <div className="buttons">
                         <ButtonToolbar>
                             <Button className="single btn btn-primary btn-lg" href="styler" role="button">Back</Button>
